@@ -80,6 +80,6 @@ public boolean equals(Object obj) {
 }
 public int compareTo(Student object) {
 	Student stud=(Student) object;
-		return stud.getStudentName().compareTo(this.getStudentName());
+		return stud.getStudentId()-this.getStudentId();
 }
 }

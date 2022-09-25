@@ -24,7 +24,7 @@ public class StudentMain {
 				break;
 		case 2:
 			System.out.println();
-			System.out.println("Given set is sorted in decending order on the parameter studentName");
+			System.out.println("Given set is sorted in decending order on the parameter studentId");
 			System.out.println();
 
 			TreeSet<Student> stu=StudentView.displayStudents();			
