@@ -2,10 +2,9 @@ package org.practicaltest.dao;
 import java.util.TreeSet;
 import org.practicaltest.model.Student;
 
-
 public class StudentDAO {
 	//StudentIdComparator studId=new StudentIdComparator();
-	static TreeSet<Student> studs = new TreeSet<Student>();
+	private static TreeSet<Student> studs = new TreeSet<Student>();
 	//Student s1 = new Student(studentEnrollNo,studentName,studentAge);
 	//static Student studArray[]=new Student[10];
 	public static boolean addStudent(Student stud) {

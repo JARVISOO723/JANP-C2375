@@ -13,7 +13,7 @@ public class StudentView {
 		scanner.nextLine();
 		for(int i=1;i<=n;i++) {
 			System.out.println();
-			System.out.println("Enter below info for Student "+i);
+			System.out.println("Enter below info for Student No. "+i);
 		System.out.println("Enter Student Roll Number");
 		int studentId=scanner.nextInt();
 		scanner.nextLine();
