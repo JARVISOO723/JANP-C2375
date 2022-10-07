@@ -25,7 +25,6 @@ public class StudentView {
 		
 		Student stud=new Student(studentId,studentName,studentAge);
 		StudentService.addStudent(stud);
-		
 		}
 	    return true;
 	

@@ -1,13 +1,13 @@
 package question1.main;
 
 import java.util.Scanner;
-import javax.naming.InvalidNameException;
+import question1.exception.*;
 
 public class Main {
 
     public static void main(String[] args) throws InvalidNameException {
 
-        Scanner sc = new Scanner(System.in);
+      Scanner sc = new Scanner(System.in);
         while(true) {
             System.out.println("Enter your name");
             String fullName = sc.nextLine().trim();

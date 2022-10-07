@@ -9,8 +9,8 @@ public class Main {
 	            System.out.println(
 	            Thread.currentThread().getName());
 	        };
-	        Thread run = new Thread(myThread);
-	        run.start();
+	        Thread thread = new Thread(myThread);
+	        thread.start();
 	    }
 	}
 

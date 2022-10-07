@@ -9,10 +9,7 @@ public class Main {
         Thread wc = new Welcome();
         Thread ty = new ThankYou();
         wc.start();
-       // wc.run();
-        ty.start();
-        //ty.run();
-      
+        ty.start();      
       
 }
 }
