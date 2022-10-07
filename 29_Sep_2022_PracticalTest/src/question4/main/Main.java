@@ -18,12 +18,15 @@ public class Main {
     	System.out.println("Enter 5 Products");
     	System.out.println();
     	for(int i=0;i<5;i++) {
+    	System.out.println("Enter Product Id ");
+    	int productId=scanner.nextInt();
+    	scanner.nextLine(); 
     	System.out.println("Enter Product Name");
 		String productName=scanner.nextLine();
     	System.out.println("Enter Product Price ");
 		int productPrice=scanner.nextInt();
 		scanner.nextLine();   
-		Product pro=new Product(productName,productPrice);
+		Product pro=new Product(productName,productPrice,productId);
 		prods.add(pro);
 		}		displayProductInfo(prods);
 
