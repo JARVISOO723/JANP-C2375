@@ -30,14 +30,6 @@ public class Main {
 		prods.add(pro);
 		}		displayProductInfo(prods);
 
-    }
-
-	public static void addStudent(Product pro) {
-		List<Product> prods = new ArrayList<>();
-		prods.add(pro);
-		
-		displayProductInfo(prods);
-
 	}
 	public static void displayProductInfo(List<Product> prods) {
 	
